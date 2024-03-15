@@ -68,3 +68,83 @@ header nav ul li {
     width: 400px;
     border-radius: 50%;
 }
+
+.sobre-mim h1{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0; 
+}
+
+
+/* Estilo para a seção "Sobre Mim" */
+.sobre-mim {
+    padding: 100px 0;
+}
+
+.sobre-mim-conteudo {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.sobre-mim h2 {
+    font-size: 30px; 
+    color: #fff; 
+    margin-bottom: 15px; 
+}
+
+.sobre-mim p {
+    font-size: 16px; 
+    color: #fff; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+/* Estilo para a seção "Sobre Mim" */
+.formacao {
+    padding: 10px 0; 
+}
+
+.formacao-conteudo {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.formacao h3 {
+    font-size: 30px;
+    color: #fff; 
+    margin-bottom: 15px; 
+}
+
+.formacao p {
+    font-size: 16px; 
+    color: #fff; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+/* Estilo para a seção "Projetos" */
+.projetos {
+    padding: 100px 0; 
+}
+
+.projetos-conteudo {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.projetos h4 {
+    font-size: 30px;
+    color: #fff; 
+    margin-bottom: 15px; 
+}
+
+.projetos p {
+    font-size: 20px; 
+    color: #fff; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
