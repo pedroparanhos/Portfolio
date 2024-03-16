@@ -79,7 +79,7 @@ header nav ul li {
 
 /* Estilo para a seção "Sobre Mim" */
 .sobre-mim {
-    padding: 100px 0;
+    padding: 80px 4%; 
 }
 
 .sobre-mim-conteudo {
@@ -103,7 +103,7 @@ header nav ul li {
 
 /* Estilo para a seção "Sobre Mim" */
 .formacao {
-    padding: 10px 0; 
+    padding: 80px 4%; 
 }
 
 .formacao-conteudo {
@@ -127,7 +127,7 @@ header nav ul li {
 
 /* Estilo para a seção "Projetos" */
 .projetos {
-    padding: 100px 0; 
+    padding: 80px 4%; 
 }
 
 .projetos-conteudo {
@@ -148,3 +148,105 @@ header nav ul li {
     line-height: 1.5; 
     margin-bottom: 20px; 
 }
+
+/* Inicio do Formulario */
+section.formulario{
+    padding: 80px 4%;
+}
+
+.formulario-conteudo {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.formulario h5 {
+    font-size: 30px;
+    color: #fff; 
+    margin-bottom: 20px;    
+}
+
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-width: 500px;
+}
+
+form .botao-enviar{
+    margin-top: 5px;
+    text-align: center;
+}
+
+form .botao-enviar input{
+    width: 120px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form .botao-enviar input:hover{
+    transform: scale(1.10);
+}
+
+/* ------------- Inicio Footer rodapé ------------- */
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem 1.5rem 0 0;
+    height: 10rem;
+    width: 100%;
+
+}
+
+.social {
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social span {
+    display: flex;
+    margin-bottom: .2rem;
+    align-items: center;
+}
+
+.social img {
+    margin: .5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.social p{
+    color: #fff;
+}
+
+

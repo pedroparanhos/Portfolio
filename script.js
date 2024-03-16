@@ -1,3 +1,5 @@
+
+
 // Função para criar a animação de loading
 function animateLoading() {
     const loadingText = document.getElementById('loading');
@@ -11,3 +13,5 @@ function animateLoading() {
 
 // Chama a função para iniciar a animação de loading quando a página é carregada
 window.onload = animateLoading;
+
+
