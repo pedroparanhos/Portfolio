@@ -1,5 +1,3 @@
-
-
 // Função para criar a animação de loading
 function animateLoading() {
     const loadingText = document.getElementById('loading');
